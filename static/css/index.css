@@ -8,6 +8,7 @@ body {
     color: #000;
 }
 
+
 .link-block a {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -16,7 +17,6 @@ body {
 .dnerf {
   font-variant: small-caps;
 }
-
 
 .teaser .hero-body {
   padding-top: 0;
@@ -115,16 +115,21 @@ body {
 }
 
 .results-carousel .item {
-  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
   overflow: hidden;
-  border: 1px solid #bbb;
+  border: 3px solid #6187c1;
   border-radius: 10px;
-  padding: 0;
-  font-size: 0;
+  padding: 30;
+  left: 50%;
+  align-items: center;
+  max-width: 390px;
 }
 
-.results-carousel video {
-  margin: 0;
+.results-carousel video{
+  margin: 50;
+  left: 50%;
 }
 
 
@@ -155,3 +160,25 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.div-with-margin {
+  margin-bottom: 50px; /* 调整此处的数值以增加或减少空白间距 */
+}
+
+.prompt{
+  font-size: large;
+  text-align: center;
+  color:#347fda;
+  font-weight: bold;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.normal_text{
+  font-size: medium;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.abstract{
+  font-size: large;
+}
+
+
